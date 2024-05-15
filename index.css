@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -45,11 +48,13 @@ ul {
 .main-text {
     text-align: center;
     padding: 150px;
+    font-size: 25px;
+    font-family: 'Song Myung', serif;
     color: white;
 }
 
 .card {
-    width: 370px;
+    width: 400px;
     background-color: white;
     overflow: hidden;
     border-radius: 50px;
@@ -62,7 +67,7 @@ ul {
 
 .card-banner img {
     width: 100%;
-    height: 390px;
+    height: 400px;
     object-fit: cover;
 
     position: absolute;
@@ -87,7 +92,7 @@ ul {
 .title {
     font-weight: 800;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     color: black;
 }
 
