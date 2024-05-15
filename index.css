@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url("https://cdn.imweb.me/upload/S20210406ae69853331cfb/cec58e74ced77.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.nav-wrapper {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li {
+    padding: 0 170px
+}
+
+.nav li a {
+    text-decoration: none;
+}
+
+.nav li a:link {
+    color: white;
+}
+
+.nav li a:hover {
+    color: palevioletred;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.main-text {
+    text-align: center;
+    padding: 150px;
+    color: white;
+}
+
+.card {
+    width: 370px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px gray;
+    margin: 50px;
+    transition: 0.3s;
+
+    position: relative;
+}
+
+.card-banner img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+
+    position: absolute;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-body {
+    margin: 410px 15px 15px;
+    color: gray;
+}
+
+.hashtag {
+    font-size: 12px;
+    color: palevioletred;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.desc {
+    font-size: 15px;
+}
+
+.card:hover {
+    transform:translateY(-10px);
+}
