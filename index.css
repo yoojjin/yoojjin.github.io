@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url("외할머니.jpg") no-repeat center center fixed;
+    background-size: 60% 90%;
+
+}
+
+.nav-wrapper {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li {
+    padding: 0 170px
+}
+
+.nav li a {
+    text-decoration: none;
+}
+
+.nav li a:link {
+    color: white;
+}
+
+.nav li a:hover {
+    color: palevioletred;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.main-text {
+    text-align: center;
+    padding: 100px;
+    font-size: 13px;
+    font-family: 'Song Myung', serif;
+    color: white;
+}
+
+.card {
+    width: 400px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px gray;
+    margin: 50px;
+    transition: 0.3s;
+
+    position: relative;
+}
+
+.card-banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+    position: absolute;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-body {
+    margin: 410px 15px 15px;
+    color: gray;
+}
+
+.hashtag {
+    font-size: 12px;
+    color: palevioletred;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: black;
+}
+
+.desc {
+    font-size: 15px;
+}
+
+.card:hover {
+    transform:translateY(-10px);
+}
