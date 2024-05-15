@@ -45,17 +45,17 @@ ul {
     margin-right: auto;
 }
 
+.redBoldText {
+    color: red;
+    font-weight: bold;
+}
+
 .main-text {
     text-align: center;
     padding: 100px;
     font-size: 13px;
     font-family: 'Song Myung', serif;
     color: white;
-}
-
-.hyunsumak img {
-    width: 100%;
-    justify-content: center;
 }
 
 .menupan img {
