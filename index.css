@@ -53,6 +53,11 @@ ul {
     color: white;
 }
 
+.hyunsumak img {
+    width: 100%;
+    justify-content: center;
+}
+
 .menupan img {
     width: 100%;
     justify-content: center;
