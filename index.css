@@ -8,9 +8,9 @@
 }
 
 html {
-    /* background: url("외할머니.jpg") no-repeat center center fixed;
-    background-size: 60% 90%; */
-    background-color: black;
+    background: url("배경.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: black; */
 }
 
 .nav-wrapper {
