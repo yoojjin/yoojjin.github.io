@@ -8,9 +8,9 @@
 }
 
 html {
-    background: url("배경.jpg") no-repeat center center fixed;
-    background-size: cover;
-    /* background-color: black; */
+    /* background: url("배경.jpg") no-repeat center center fixed;
+    background-size: 95% 100%; */
+    background-color: black;
 }
 
 .nav-wrapper {
